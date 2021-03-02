@@ -40,6 +40,19 @@ main {
 	margin-top: 56px;
 }
 
+.form-box {
+	background-color: $color1;
+}
+
+.form-control {
+	border-radius: 50px;
+	padding-right: 45px;
+	&:focus {
+		border-color: $color1;
+		box-shadow: none;
+	}
+}
+
 
 .color1{
 	color: $color1;

@@ -5,6 +5,10 @@ $color4: #F0F0F0; /**gris claro*/
 
 /* Custom page CSS
 -------------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
 body{
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
@@ -61,7 +65,7 @@ main {
 	color: $color4;
 }
 
-.btn-primary {
+.btn-warning {
 	color: $color2;
 	background-color: $color3;
 	border-color: $color3;
@@ -81,17 +85,6 @@ main {
 	height: 90vh;
 	background: url(../Imagenes/cabecera.jpg)no-repeat center center fixed; 
   	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-}
-
-/* No anda*/
-.img-body {
-	background: red;
-	height: 90vh;
-	background: url(../Imagenes/body.jpg)no-repeat center cener fixed;
-	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;

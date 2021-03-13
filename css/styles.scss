@@ -9,6 +9,7 @@ body{
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	color: color2;
+	background-color: $color4;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -60,25 +61,6 @@ main {
 	color: $color4;
 }
 
-
-
-.bg-color1{
-	background-color: $color1;
-}
-
-.bg-color2{
-	background-color: $color2;
-}
-
-.bg-color3{
-	background-color: $color3;
-}
-
-.bg-color4{
-	background-color: $color4;
-}
-
-
 .btn-primary {
 	color: $color2;
 	background-color: $color3;
@@ -104,6 +86,7 @@ main {
   	background-size: cover;
 }
 
+/* No anda*/
 .img-body {
 	background: red;
 	height: 90vh;
@@ -124,8 +107,17 @@ main {
   	background-size: cover;
 }
 
+#dondeEstamos {
+	background-color: $color4;
+}
+
+#mapid {
+	width: 700px; 
+	height: 500px;
+}
+
 .footer {
-  background-color: #f5f5f5;
+  background-color: $color1;
 }
 
 .footer > .container {

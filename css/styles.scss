@@ -11,7 +11,7 @@ html {
 
 body{
 	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	color: color2;
 	background-color: $color4;
 }
@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	font-size: 100px;
+	font-size: 90px;
 	color: color2;
 	font-weight: 700;
 }
@@ -43,7 +43,7 @@ h4 {
 }
 
 p {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 400;
 }
 
@@ -132,11 +132,44 @@ main {
 	height: 500px;
 }
 
-.footer {
-  background-color: $color1;
+.contact-section {
+  padding-top: 5rem;
+}
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid #FFC600;
+}
+.contact-section .card h4 {
+  font-size: 0.8rem;
+  
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+.contact-section .card hr {
+  border-color: #FFC600;
+  border-width: 0.25rem;
+  width: 3rem;
 }
 
-.footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
+
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: #ffffff;
+  border-radius: 100%;
+  line-height: 3rem;
+  color: #FFC600;
+} 
+
+.contact-section .social a:hover {
+  color: #000000
+} 
+
+.contact-section .social a:active {
+  color: #000000
+}
+
+.footer {
+  padding: 5rem 0;
 }
